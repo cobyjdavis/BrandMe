@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA776D932569F66F000E4E48 /* MediaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA776D922569F66F000E4E48 /* MediaCard.swift */; };
+		EA776D9B2569F6B6000E4E48 /* MediaPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA776D9A2569F6B6000E4E48 /* MediaPage.swift */; };
+		EA776DA02569F7D6000E4E48 /* EngagementGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA776D9F2569F7D6000E4E48 /* EngagementGraph.swift */; };
+		EA776DC4258835F4000E4E48 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA776DC3258835F2000E4E48 /* LineChart.swift */; };
+		EA776DD4258840C6000E4E48 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = EA776DD3258840C6000E4E48 /* SwiftUICharts */; };
+		EA776DD925884FE5000E4E48 /* ChartMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA776DD825884FE5000E4E48 /* ChartMockData.swift */; };
+		EA776DDE258886EC000E4E48 /* EngagementChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA776DDD258886EC000E4E48 /* EngagementChart.swift */; };
+		EA776DE425888718000E4E48 /* iLineChart in Frameworks */ = {isa = PBXBuildFile; productRef = EA776DE325888718000E4E48 /* iLineChart */; };
+		EA811E6325B7759200121A2D /* ExpandableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA811E6225B7759200121A2D /* ExpandableButton.swift */; };
+		EA811E7225B8C5B400121A2D /* Grid in Frameworks */ = {isa = PBXBuildFile; productRef = EA811E7125B8C5B400121A2D /* Grid */; };
+		EA9B3FCE2568ABB000F95C55 /* BrandMe_v8App.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B3FCD2568ABB000F95C55 /* BrandMe_v8App.swift */; };
+		EA9B3FD02568ABB000F95C55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B3FCF2568ABB000F95C55 /* ContentView.swift */; };
+		EA9B3FD22568ABB200F95C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9B3FD12568ABB200F95C55 /* Assets.xcassets */; };
+		EA9B3FD52568ABB200F95C55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9B3FD42568ABB200F95C55 /* Preview Assets.xcassets */; };
+		EA9B3FE02568ABB200F95C55 /* BrandMe_v8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B3FDF2568ABB200F95C55 /* BrandMe_v8Tests.swift */; };
+		EA9B3FEB2568ABB200F95C55 /* BrandMe_v8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B3FEA2568ABB200F95C55 /* BrandMe_v8UITests.swift */; };
+		EA9B40092568AD5900F95C55 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B40062568AD5900F95C55 /* DragView.swift */; };
+		EA9B400A2568AD5900F95C55 /* HorizontalTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B40072568AD5900F95C55 /* HorizontalTabs.swift */; };
+		EA9B400B2568AD5900F95C55 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B40082568AD5900F95C55 /* RoundedCorners.swift */; };
+		EA9B40112568AFCB00F95C55 /* Pages in Frameworks */ = {isa = PBXBuildFile; productRef = EA9B40102568AFCB00F95C55 /* Pages */; };
+		EA9B40292568B34E00F95C55 /* Gilroy-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B40152568B34E00F95C55 /* Gilroy-BoldItalic.ttf */; };
+		EA9B402A2568B34E00F95C55 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B40162568B34E00F95C55 /* Gilroy-Light.ttf */; };
+		EA9B402B2568B34E00F95C55 /* Gilroy-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B40172568B34E00F95C55 /* Gilroy-LightItalic.ttf */; };
+		EA9B402C2568B34E00F95C55 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B40182568B34E00F95C55 /* Gilroy-Regular.ttf */; };
+		EA9B402D2568B34E00F95C55 /* Gilroy-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B40192568B34E00F95C55 /* Gilroy-ThinItalic.ttf */; };
+		EA9B402E2568B34E00F95C55 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B401A2568B34E00F95C55 /* Gilroy-Medium.ttf */; };
+		EA9B402F2568B34E00F95C55 /* Gilroy-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B401B2568B34E00F95C55 /* Gilroy-RegularItalic.ttf */; };
+		EA9B40302568B34E00F95C55 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B401C2568B34E00F95C55 /* Gilroy-Heavy.ttf */; };
+		EA9B40312568B34E00F95C55 /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B401D2568B34E00F95C55 /* Gilroy-Thin.ttf */; };
+		EA9B40322568B34E00F95C55 /* Gilroy-UltraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B401E2568B34E00F95C55 /* Gilroy-UltraLightItalic.ttf */; };
+		EA9B40332568B34E00F95C55 /* Gilroy-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B401F2568B34E00F95C55 /* Gilroy-HeavyItalic.ttf */; };
+		EA9B40342568B34E00F95C55 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B40202568B34E00F95C55 /* Gilroy-Bold.ttf */; };
+		EA9B40352568B34E00F95C55 /* Gilroy-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B40212568B34E00F95C55 /* Gilroy-SemiBoldItalic.ttf */; };
+		EA9B40362568B34E00F95C55 /* Gilroy-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B40222568B34E00F95C55 /* Gilroy-MediumItalic.ttf */; };
+		EA9B40372568B34E00F95C55 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B40232568B34E00F95C55 /* Gilroy-Black.ttf */; };
+		EA9B40382568B34E00F95C55 /* Gilroy-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B40242568B34E00F95C55 /* Gilroy-ExtraBoldItalic.ttf */; };
+		EA9B40392568B34E00F95C55 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B40252568B34E00F95C55 /* Gilroy-SemiBold.ttf */; };
+		EA9B403A2568B34E00F95C55 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B40262568B34E00F95C55 /* Gilroy-UltraLight.ttf */; };
+		EA9B403B2568B34E00F95C55 /* Gilroy-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B40272568B34E00F95C55 /* Gilroy-BlackItalic.ttf */; };
+		EA9B403C2568B34E00F95C55 /* Gilroy-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA9B40282568B34E00F95C55 /* Gilroy-ExtraBold.ttf */; };
+		EA9B40442568C02300F95C55 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B40432568C02300F95C55 /* CarouselView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA9B3FDC2568ABB200F95C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA9B3FC22568ABAF00F95C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9B3FC92568ABB000F95C55;
+			remoteInfo = "BrandMe v8";
+		};
+		EA9B3FE72568ABB200F95C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA9B3FC22568ABAF00F95C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9B3FC92568ABB000F95C55;
+			remoteInfo = "BrandMe v8";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA776D922569F66F000E4E48 /* MediaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCard.swift; sourceTree = "<group>"; };
+		EA776D9A2569F6B6000E4E48 /* MediaPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPage.swift; sourceTree = "<group>"; };
+		EA776D9F2569F7D6000E4E48 /* EngagementGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngagementGraph.swift; sourceTree = "<group>"; };
+		EA776DC3258835F2000E4E48 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		EA776DD825884FE5000E4E48 /* ChartMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartMockData.swift; sourceTree = "<group>"; };
+		EA776DDD258886EC000E4E48 /* EngagementChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngagementChart.swift; sourceTree = "<group>"; };
+		EA811E6225B7759200121A2D /* ExpandableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableButton.swift; sourceTree = "<group>"; };
+		EA9B3FCA2568ABB000F95C55 /* BrandMe v8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BrandMe v8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9B3FCD2568ABB000F95C55 /* BrandMe_v8App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandMe_v8App.swift; sourceTree = "<group>"; };
+		EA9B3FCF2568ABB000F95C55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA9B3FD12568ABB200F95C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA9B3FD42568ABB200F95C55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA9B3FD62568ABB200F95C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9B3FDB2568ABB200F95C55 /* BrandMe v8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BrandMe v8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9B3FDF2568ABB200F95C55 /* BrandMe_v8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandMe_v8Tests.swift; sourceTree = "<group>"; };
+		EA9B3FE12568ABB200F95C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9B3FE62568ABB200F95C55 /* BrandMe v8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BrandMe v8UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9B3FEA2568ABB200F95C55 /* BrandMe_v8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandMe_v8UITests.swift; sourceTree = "<group>"; };
+		EA9B3FEC2568ABB200F95C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9B40062568AD5900F95C55 /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		EA9B40072568AD5900F95C55 /* HorizontalTabs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalTabs.swift; sourceTree = "<group>"; };
+		EA9B40082568AD5900F95C55 /* RoundedCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		EA9B40152568B34E00F95C55 /* Gilroy-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EA9B40162568B34E00F95C55 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		EA9B40172568B34E00F95C55 /* Gilroy-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-LightItalic.ttf"; sourceTree = "<group>"; };
+		EA9B40182568B34E00F95C55 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		EA9B40192568B34E00F95C55 /* Gilroy-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ThinItalic.ttf"; sourceTree = "<group>"; };
+		EA9B401A2568B34E00F95C55 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		EA9B401B2568B34E00F95C55 /* Gilroy-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-RegularItalic.ttf"; sourceTree = "<group>"; };
+		EA9B401C2568B34E00F95C55 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		EA9B401D2568B34E00F95C55 /* Gilroy-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Thin.ttf"; sourceTree = "<group>"; };
+		EA9B401E2568B34E00F95C55 /* Gilroy-UltraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLightItalic.ttf"; sourceTree = "<group>"; };
+		EA9B401F2568B34E00F95C55 /* Gilroy-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		EA9B40202568B34E00F95C55 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		EA9B40212568B34E00F95C55 /* Gilroy-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		EA9B40222568B34E00F95C55 /* Gilroy-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-MediumItalic.ttf"; sourceTree = "<group>"; };
+		EA9B40232568B34E00F95C55 /* Gilroy-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Black.ttf"; sourceTree = "<group>"; };
+		EA9B40242568B34E00F95C55 /* Gilroy-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		EA9B40252568B34E00F95C55 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-SemiBold.ttf"; path = "../../../BrandMe App/BrandMe App/Fonts/Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		EA9B40262568B34E00F95C55 /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLight.ttf"; sourceTree = "<group>"; };
+		EA9B40272568B34E00F95C55 /* Gilroy-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BlackItalic.ttf"; sourceTree = "<group>"; };
+		EA9B40282568B34E00F95C55 /* Gilroy-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.ttf"; sourceTree = "<group>"; };
+		EA9B40432568C02300F95C55 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA9B3FC72568ABB000F95C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9B40112568AFCB00F95C55 /* Pages in Frameworks */,
+				EA776DE425888718000E4E48 /* iLineChart in Frameworks */,
+				EA811E7225B8C5B400121A2D /* Grid in Frameworks */,
+				EA776DD4258840C6000E4E48 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9B3FD82568ABB200F95C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9B3FE32568ABB200F95C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA776D902569F659000E4E48 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EA776D912569F65F000E4E48 /* Media */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		EA776D912569F65F000E4E48 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				EA776D922569F66F000E4E48 /* MediaCard.swift */,
+				EA776D9A2569F6B6000E4E48 /* MediaPage.swift */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		EA9B3FC12568ABAF00F95C55 = {
+			isa = PBXGroup;
+			children = (
+				EA9B3FCC2568ABB000F95C55 /* BrandMe v8 */,
+				EA9B3FDE2568ABB200F95C55 /* BrandMe v8Tests */,
+				EA9B3FE92568ABB200F95C55 /* BrandMe v8UITests */,
+				EA9B3FCB2568ABB000F95C55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA9B3FCB2568ABB000F95C55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B3FCA2568ABB000F95C55 /* BrandMe v8.app */,
+				EA9B3FDB2568ABB200F95C55 /* BrandMe v8Tests.xctest */,
+				EA9B3FE62568ABB200F95C55 /* BrandMe v8UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA9B3FCC2568ABB000F95C55 /* BrandMe v8 */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B40012568ACC700F95C55 /* View */,
+				EA9B3FFB2568AC6700F95C55 /* Fonts */,
+				EA9B3FCD2568ABB000F95C55 /* BrandMe_v8App.swift */,
+				EA9B3FCF2568ABB000F95C55 /* ContentView.swift */,
+				EA9B3FD12568ABB200F95C55 /* Assets.xcassets */,
+				EA9B3FD62568ABB200F95C55 /* Info.plist */,
+				EA9B3FD32568ABB200F95C55 /* Preview Content */,
+			);
+			path = "BrandMe v8";
+			sourceTree = "<group>";
+		};
+		EA9B3FD32568ABB200F95C55 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B3FD42568ABB200F95C55 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA9B3FDE2568ABB200F95C55 /* BrandMe v8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B3FDF2568ABB200F95C55 /* BrandMe_v8Tests.swift */,
+				EA9B3FE12568ABB200F95C55 /* Info.plist */,
+			);
+			path = "BrandMe v8Tests";
+			sourceTree = "<group>";
+		};
+		EA9B3FE92568ABB200F95C55 /* BrandMe v8UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B3FEA2568ABB200F95C55 /* BrandMe_v8UITests.swift */,
+				EA9B3FEC2568ABB200F95C55 /* Info.plist */,
+			);
+			path = "BrandMe v8UITests";
+			sourceTree = "<group>";
+		};
+		EA9B3FFB2568AC6700F95C55 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B40232568B34E00F95C55 /* Gilroy-Black.ttf */,
+				EA9B40272568B34E00F95C55 /* Gilroy-BlackItalic.ttf */,
+				EA9B40202568B34E00F95C55 /* Gilroy-Bold.ttf */,
+				EA9B40152568B34E00F95C55 /* Gilroy-BoldItalic.ttf */,
+				EA9B40282568B34E00F95C55 /* Gilroy-ExtraBold.ttf */,
+				EA9B40242568B34E00F95C55 /* Gilroy-ExtraBoldItalic.ttf */,
+				EA9B401C2568B34E00F95C55 /* Gilroy-Heavy.ttf */,
+				EA9B401F2568B34E00F95C55 /* Gilroy-HeavyItalic.ttf */,
+				EA9B40162568B34E00F95C55 /* Gilroy-Light.ttf */,
+				EA9B40172568B34E00F95C55 /* Gilroy-LightItalic.ttf */,
+				EA9B401A2568B34E00F95C55 /* Gilroy-Medium.ttf */,
+				EA9B40222568B34E00F95C55 /* Gilroy-MediumItalic.ttf */,
+				EA9B40182568B34E00F95C55 /* Gilroy-Regular.ttf */,
+				EA9B401B2568B34E00F95C55 /* Gilroy-RegularItalic.ttf */,
+				EA9B40252568B34E00F95C55 /* Gilroy-SemiBold.ttf */,
+				EA9B40212568B34E00F95C55 /* Gilroy-SemiBoldItalic.ttf */,
+				EA9B401D2568B34E00F95C55 /* Gilroy-Thin.ttf */,
+				EA9B40192568B34E00F95C55 /* Gilroy-ThinItalic.ttf */,
+				EA9B40262568B34E00F95C55 /* Gilroy-UltraLight.ttf */,
+				EA9B401E2568B34E00F95C55 /* Gilroy-UltraLightItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EA9B40012568ACC700F95C55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA776D902569F659000E4E48 /* Profile */,
+				EA9B40052568AD4700F95C55 /* Custom */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA9B40052568AD4700F95C55 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B40062568AD5900F95C55 /* DragView.swift */,
+				EA9B40072568AD5900F95C55 /* HorizontalTabs.swift */,
+				EA9B40082568AD5900F95C55 /* RoundedCorners.swift */,
+				EA9B40432568C02300F95C55 /* CarouselView.swift */,
+				EA776D9F2569F7D6000E4E48 /* EngagementGraph.swift */,
+				EA776DC3258835F2000E4E48 /* LineChart.swift */,
+				EA776DD825884FE5000E4E48 /* ChartMockData.swift */,
+				EA776DDD258886EC000E4E48 /* EngagementChart.swift */,
+				EA811E6225B7759200121A2D /* ExpandableButton.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA9B3FC92568ABB000F95C55 /* BrandMe v8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9B3FEF2568ABB200F95C55 /* Build configuration list for PBXNativeTarget "BrandMe v8" */;
+			buildPhases = (
+				EA9B3FC62568ABB000F95C55 /* Sources */,
+				EA9B3FC72568ABB000F95C55 /* Frameworks */,
+				EA9B3FC82568ABB000F95C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BrandMe v8";
+			packageProductDependencies = (
+				EA9B40102568AFCB00F95C55 /* Pages */,
+				EA776DD3258840C6000E4E48 /* SwiftUICharts */,
+				EA776DE325888718000E4E48 /* iLineChart */,
+				EA811E7125B8C5B400121A2D /* Grid */,
+			);
+			productName = "BrandMe v8";
+			productReference = EA9B3FCA2568ABB000F95C55 /* BrandMe v8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA9B3FDA2568ABB200F95C55 /* BrandMe v8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9B3FF22568ABB200F95C55 /* Build configuration list for PBXNativeTarget "BrandMe v8Tests" */;
+			buildPhases = (
+				EA9B3FD72568ABB200F95C55 /* Sources */,
+				EA9B3FD82568ABB200F95C55 /* Frameworks */,
+				EA9B3FD92568ABB200F95C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9B3FDD2568ABB200F95C55 /* PBXTargetDependency */,
+			);
+			name = "BrandMe v8Tests";
+			productName = "BrandMe v8Tests";
+			productReference = EA9B3FDB2568ABB200F95C55 /* BrandMe v8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA9B3FE52568ABB200F95C55 /* BrandMe v8UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9B3FF52568ABB200F95C55 /* Build configuration list for PBXNativeTarget "BrandMe v8UITests" */;
+			buildPhases = (
+				EA9B3FE22568ABB200F95C55 /* Sources */,
+				EA9B3FE32568ABB200F95C55 /* Frameworks */,
+				EA9B3FE42568ABB200F95C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9B3FE82568ABB200F95C55 /* PBXTargetDependency */,
+			);
+			name = "BrandMe v8UITests";
+			productName = "BrandMe v8UITests";
+			productReference = EA9B3FE62568ABB200F95C55 /* BrandMe v8UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA9B3FC22568ABAF00F95C55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EA9B3FC92568ABB000F95C55 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					EA9B3FDA2568ABB200F95C55 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EA9B3FC92568ABB000F95C55;
+					};
+					EA9B3FE52568ABB200F95C55 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EA9B3FC92568ABB000F95C55;
+					};
+				};
+			};
+			buildConfigurationList = EA9B3FC52568ABAF00F95C55 /* Build configuration list for PBXProject "BrandMe v8" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA9B3FC12568ABAF00F95C55;
+			packageReferences = (
+				EA9B400F2568AFCB00F95C55 /* XCRemoteSwiftPackageReference "Pages" */,
+				EA776DD2258840C6000E4E48 /* XCRemoteSwiftPackageReference "ChartView" */,
+				EA776DE225888718000E4E48 /* XCRemoteSwiftPackageReference "iLineChart" */,
+				EA811E7025B8C5B400121A2D /* XCRemoteSwiftPackageReference "swiftui-grid" */,
+			);
+			productRefGroup = EA9B3FCB2568ABB000F95C55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA9B3FC92568ABB000F95C55 /* BrandMe v8 */,
+				EA9B3FDA2568ABB200F95C55 /* BrandMe v8Tests */,
+				EA9B3FE52568ABB200F95C55 /* BrandMe v8UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA9B3FC82568ABB000F95C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9B403B2568B34E00F95C55 /* Gilroy-BlackItalic.ttf in Resources */,
+				EA9B40322568B34E00F95C55 /* Gilroy-UltraLightItalic.ttf in Resources */,
+				EA9B40382568B34E00F95C55 /* Gilroy-ExtraBoldItalic.ttf in Resources */,
+				EA9B3FD52568ABB200F95C55 /* Preview Assets.xcassets in Resources */,
+				EA9B40362568B34E00F95C55 /* Gilroy-MediumItalic.ttf in Resources */,
+				EA9B3FD22568ABB200F95C55 /* Assets.xcassets in Resources */,
+				EA9B402F2568B34E00F95C55 /* Gilroy-RegularItalic.ttf in Resources */,
+				EA9B402A2568B34E00F95C55 /* Gilroy-Light.ttf in Resources */,
+				EA9B40292568B34E00F95C55 /* Gilroy-BoldItalic.ttf in Resources */,
+				EA9B402D2568B34E00F95C55 /* Gilroy-ThinItalic.ttf in Resources */,
+				EA9B402C2568B34E00F95C55 /* Gilroy-Regular.ttf in Resources */,
+				EA9B40302568B34E00F95C55 /* Gilroy-Heavy.ttf in Resources */,
+				EA9B403C2568B34E00F95C55 /* Gilroy-ExtraBold.ttf in Resources */,
+				EA9B40312568B34E00F95C55 /* Gilroy-Thin.ttf in Resources */,
+				EA9B40392568B34E00F95C55 /* Gilroy-SemiBold.ttf in Resources */,
+				EA9B40372568B34E00F95C55 /* Gilroy-Black.ttf in Resources */,
+				EA9B402E2568B34E00F95C55 /* Gilroy-Medium.ttf in Resources */,
+				EA9B40342568B34E00F95C55 /* Gilroy-Bold.ttf in Resources */,
+				EA9B40352568B34E00F95C55 /* Gilroy-SemiBoldItalic.ttf in Resources */,
+				EA9B40332568B34E00F95C55 /* Gilroy-HeavyItalic.ttf in Resources */,
+				EA9B402B2568B34E00F95C55 /* Gilroy-LightItalic.ttf in Resources */,
+				EA9B403A2568B34E00F95C55 /* Gilroy-UltraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9B3FD92568ABB200F95C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9B3FE42568ABB200F95C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9B3FC62568ABB000F95C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA811E6325B7759200121A2D /* ExpandableButton.swift in Sources */,
+				EA9B400B2568AD5900F95C55 /* RoundedCorners.swift in Sources */,
+				EA776D932569F66F000E4E48 /* MediaCard.swift in Sources */,
+				EA9B3FD02568ABB000F95C55 /* ContentView.swift in Sources */,
+				EA776DA02569F7D6000E4E48 /* EngagementGraph.swift in Sources */,
+				EA776DC4258835F4000E4E48 /* LineChart.swift in Sources */,
+				EA9B3FCE2568ABB000F95C55 /* BrandMe_v8App.swift in Sources */,
+				EA9B40092568AD5900F95C55 /* DragView.swift in Sources */,
+				EA9B40442568C02300F95C55 /* CarouselView.swift in Sources */,
+				EA9B400A2568AD5900F95C55 /* HorizontalTabs.swift in Sources */,
+				EA776DDE258886EC000E4E48 /* EngagementChart.swift in Sources */,
+				EA776DD925884FE5000E4E48 /* ChartMockData.swift in Sources */,
+				EA776D9B2569F6B6000E4E48 /* MediaPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9B3FD72568ABB200F95C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9B3FE02568ABB200F95C55 /* BrandMe_v8Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9B3FE22568ABB200F95C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9B3FEB2568ABB200F95C55 /* BrandMe_v8UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA9B3FDD2568ABB200F95C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA9B3FC92568ABB000F95C55 /* BrandMe v8 */;
+			targetProxy = EA9B3FDC2568ABB200F95C55 /* PBXContainerItemProxy */;
+		};
+		EA9B3FE82568ABB200F95C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA9B3FC92568ABB000F95C55 /* BrandMe v8 */;
+			targetProxy = EA9B3FE72568ABB200F95C55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA9B3FED2568ABB200F95C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA9B3FEE2568ABB200F95C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA9B3FF02568ABB200F95C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BrandMe v8/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BrandMe v8/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CJDavis.BrandMe-v8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA9B3FF12568ABB200F95C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BrandMe v8/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BrandMe v8/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CJDavis.BrandMe-v8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA9B3FF32568ABB200F95C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BrandMe v8Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CJDavis.BrandMe-v8Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrandMe v8.app/BrandMe v8";
+			};
+			name = Debug;
+		};
+		EA9B3FF42568ABB200F95C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BrandMe v8Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CJDavis.BrandMe-v8Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrandMe v8.app/BrandMe v8";
+			};
+			name = Release;
+		};
+		EA9B3FF62568ABB200F95C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BrandMe v8UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CJDavis.BrandMe-v8UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BrandMe v8";
+			};
+			name = Debug;
+		};
+		EA9B3FF72568ABB200F95C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BrandMe v8UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CJDavis.BrandMe-v8UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BrandMe v8";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA9B3FC52568ABAF00F95C55 /* Build configuration list for PBXProject "BrandMe v8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9B3FED2568ABB200F95C55 /* Debug */,
+				EA9B3FEE2568ABB200F95C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9B3FEF2568ABB200F95C55 /* Build configuration list for PBXNativeTarget "BrandMe v8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9B3FF02568ABB200F95C55 /* Debug */,
+				EA9B3FF12568ABB200F95C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9B3FF22568ABB200F95C55 /* Build configuration list for PBXNativeTarget "BrandMe v8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9B3FF32568ABB200F95C55 /* Debug */,
+				EA9B3FF42568ABB200F95C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9B3FF52568ABB200F95C55 /* Build configuration list for PBXNativeTarget "BrandMe v8UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9B3FF62568ABB200F95C55 /* Debug */,
+				EA9B3FF72568ABB200F95C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA776DD2258840C6000E4E48 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
+		EA776DE225888718000E4E48 /* XCRemoteSwiftPackageReference "iLineChart" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AlexFine/iLineChart.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.4;
+			};
+		};
+		EA811E7025B8C5B400121A2D /* XCRemoteSwiftPackageReference "swiftui-grid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spacenation/swiftui-grid.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		EA9B400F2568AFCB00F95C55 /* XCRemoteSwiftPackageReference "Pages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nachonavarro/Pages.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA776DD3258840C6000E4E48 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA776DD2258840C6000E4E48 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		EA776DE325888718000E4E48 /* iLineChart */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA776DE225888718000E4E48 /* XCRemoteSwiftPackageReference "iLineChart" */;
+			productName = iLineChart;
+		};
+		EA811E7125B8C5B400121A2D /* Grid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA811E7025B8C5B400121A2D /* XCRemoteSwiftPackageReference "swiftui-grid" */;
+			productName = Grid;
+		};
+		EA9B40102568AFCB00F95C55 /* Pages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA9B400F2568AFCB00F95C55 /* XCRemoteSwiftPackageReference "Pages" */;
+			productName = Pages;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EA9B3FC22568ABAF00F95C55 /* Project object */;
+}

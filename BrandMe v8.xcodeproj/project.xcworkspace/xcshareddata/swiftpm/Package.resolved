@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftUICharts",
+        "repositoryURL": "https://github.com/AppPear/ChartView.git",
+        "state": {
+          "branch": null,
+          "revision": "4699847a9ac0c694666cea3acef133498952566e",
+          "version": "1.5.4"
+        }
+      },
+      {
+        "package": "iColor",
+        "repositoryURL": "https://github.com/iSwiftUIHome/iColor.git",
+        "state": {
+          "branch": null,
+          "revision": "3c2ae81be776ba4b26a0ca223f819c4d7676b5d4",
+          "version": "0.1.1"
+        }
+      },
+      {
+        "package": "iLineChart",
+        "repositoryURL": "https://github.com/AlexFine/iLineChart.git",
+        "state": {
+          "branch": null,
+          "revision": "683279134c561cfa59a4cee9ecdfab177858f4ed",
+          "version": "1.6.4"
+        }
+      },
+      {
+        "package": "Pages",
+        "repositoryURL": "https://github.com/nachonavarro/Pages.git",
+        "state": {
+          "branch": null,
+          "revision": "4cdbe4ff2f9ddbfda8cf0376a2acb678a1a0a0a2",
+          "version": "0.1.5"
+        }
+      },
+      {
+        "package": "Grid",
+        "repositoryURL": "https://github.com/spacenation/swiftui-grid.git",
+        "state": {
+          "branch": null,
+          "revision": "623f995c6ee0e5a5ed0e104d142daeae67b0ec92",
+          "version": "1.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
